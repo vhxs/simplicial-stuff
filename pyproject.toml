@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "simplicial-stuff"
+version = "0.1.0"
+description = ""
+authors = ["anon <vikram.saraph.22@gmail.com>"]
+readme = "README.md"
+packages = [{include = "simplicial_stuff"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.6.2"
+networkx = "^2.8.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
